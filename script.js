@@ -5,9 +5,9 @@ $(document).ready(function(){
 		$.ajaxSetup({cache:false});
     
     
-    		$.getJSON("https://crossorigin.me/http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(quote) {
-    			$(".quoteHolder").html(' &ldquo; ' + quote[0].content + ' &rdquo; ');
-    			$(".author").html(" - " + quote[0].title);
+    		$.getJSON("https://talaikis.com/api/quotes/random/", function(quote) {
+    			$(".quoteHolder").html(' &ldquo; ' + quote + ' &rdquo; ');
+    			$(".author").html(" - " + author);
     			console.log(quote);
 
     		});
