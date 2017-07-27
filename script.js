@@ -5,7 +5,7 @@ $(document).ready(function(){
 		$.ajaxSetup({cache:false});
     
     
-    		$.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(quote) {
+    		$.getJSON("https://crossorigin.me/http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(quote) {
     			$(".quoteHolder").html(' &ldquo; ' + quote[0].content + ' &rdquo; ');
     			$(".author").html(" - " + quote[0].title);
     			console.log(quote);
