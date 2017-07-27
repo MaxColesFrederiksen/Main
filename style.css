@@ -1,107 +1,109 @@
 * {
-  font-family: "Verdana", "Geneva", sans-serif; }
-
+	font-family: "Verdana", "Geneva", sans-serif;
+}
 .background {
-  background: beige;
-  height: 100%;
-  width: 100vw;
-  padding: 20px 0 50px 0; }
-
+	background: beige;
+	height: 100%;
+	width: 100vw;
+	padding: 20px 0 50px 0;
+}
 .box {
-  background: transparent;
-  text-align: center;
-  max-width: 1000px;
-  height: auto;
-  padding: 50px 5px 0 5px;
-  margin: 0px auto 50px auto; }
-
+	background: transparent;
+	text-align: center;
+	max-width: 1000px;
+	height: auto;
+	padding: 50px 5px 0 5px;
+	margin: 0px auto 50px auto;
+}
 .quoteHolder {
-  max-width: 600px;
-  border-bottom: solid 2px black;
-  width: auto;
-  display: inline-block;
-  padding: 0px;
-  font-style: italic;
-  font-weight: lighter;
-  font-size: 30px;
-  letter-spacing: 0.5px;
-  line-height: 44px; }
-
+	max-width: 600px;
+	border-bottom: solid 2px black;
+	width: auto;
+	display: inline-block;
+	padding: 0px;
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 30px;
+	letter-spacing: 0.5px;
+	line-height: 44px;
+}
 h5 {
-  display: inline-block;
-  font-weight: lighter;
-  letter-spacing: 1px; }
-
+	display: inline-block;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
 .row {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto; }
-
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
 .author {
-  font-size: 24px;
-  font-weight: normal;
-  color: #8F76A8;
-  font-weight: bold;
-  letter-spacing: 0.25px; }
-
+	font-size: 24px;
+	font-weight: normal;
+	color: #8F76A8;
+	font-weight: bold;
+	letter-spacing: 0.25px;
+}
 .smallText {
-  margin: 0px 20px 0px 0px;
-  padding: 50px 0px 0px 0px;
-  font-size: 14px; }
-
+	margin: 0px 20px 0px 0px;
+	padding: 50px 0px 0px 0px;
+	font-size: 14px;
+}
 a.linkBlock {
-  border-color: black;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 100%;
-  width: 70px;
-  display: inline-block;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 10px;
-  outline: none; }
-
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 100%;
+	width: 70px;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	outline: none;
+}
 .linkBlock:hover {
-  background: white;
-  cursor: pointer; }
-
+	background: white;
+	cursor: pointer;
+}
 .quoteImg {
-  width: 100%;
-  display: inline-block; }
-
+	width: 100%;
+	display: inline-block;
+}
 .arrow-wrap {
-  width: 60px;
-  margin: 0px 60px 0px 0px;
-  padding: 25px 0px 0px 0px;
-  display: inline-block; }
-
+	width: 60px;
+	margin: 0px 60px 0px 0px;
+	padding: 25px 0px 0px 0px;
+	display: inline-block;
+}
 .arrow {
-  width: 100%; }
-
+	width: 100%;
+}
 .fa.fa-twitter {
-  font-size: 25px;
-  margin-right: 15px; }
-
+	font-size: 25px;
+	margin-right: 15px;
+}
 .tweetHeader {
-  margin: 50px 50px 0px 0px; }
-
+	margin: 50px 50px 0px 0px;
+}
 .left-col {
-  text-align: center; }
-
+	text-align: center;
+}
 .createdByWrap {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  bottom: 0px;
-  margin: 0px auto; }
-
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	margin: 0px auto;
+}
 .createdBy {
-  font-size: 18px;
-  display: inline-block;
-  font-weight: lighter;
-  font-style: italic; }
-
+	font-size: 18px;
+	display: inline-block;
+	font-weight: lighter;
+	font-style: italic;
+}
 h3.myName {
-  font-size: 18px;
-  font-weight: normal;
-  display: inline-block; }
+	font-size: 18px;
+	font-weight: normal;
+	display: inline-block;
+}
+
