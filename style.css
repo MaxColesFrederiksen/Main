@@ -1,5 +1,9 @@
 * {
 	font-family: "Verdana", "Geneva", sans-serif;
+body {
+	height: auto;
+	width: auto;
+}
 }
 .background {
 	background: beige;
