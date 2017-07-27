@@ -5,9 +5,9 @@ $(document).ready(function(){
 		$.ajaxSetup({cache:false});
     
     
-    		$.getJSON("https://talaikis.com/api/quotes/random/", function(quote) {
-    			$(".quoteHolder").html(' &ldquo; ' + quote + ' &rdquo; ');
-    			$(".author").html(" - " + author);
+    		$.getJSON("https://talaikis.com/api/quotes/random/", function(data) {
+    			$(".quoteHolder").html(' &ldquo; ' + data.quote + ' &rdquo; ');
+    			$(".author").html(" - " + data.author);
     			console.log(quote);
 
     		});
