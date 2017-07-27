@@ -7,7 +7,7 @@ body {
 }
 .background {
 	background: beige;
-	height: 100%;
+	height: auto;
 	width: 100vw;
 	padding: 20px 0 50px 0;
 }
