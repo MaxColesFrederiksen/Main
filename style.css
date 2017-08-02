@@ -1,13 +1,13 @@
 * {
 	font-family: "Verdana", "Geneva", sans-serif;
 body {
-	height: auto;
+	height: 100vh;
 	width: auto;
 }
 }
 .background {
 	background: beige;
-	height: auto;
+	height: 100%;
 	width: 100vw;
 	padding: 20px 0 50px 0;
 }
