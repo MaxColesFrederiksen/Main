@@ -5,7 +5,7 @@ $(document).ready(function(){
 		$.ajaxSetup({cache:false});
     
     
-    		$.getJSON("https://crossorigin.me/https://talaikis.com/api/quotes/random/", function(data) {
+    		$.getJSON("https://talaikis.com/api/quotes/random/", function(data) {
     			$(".quoteHolder").html(' &ldquo; ' + data.quote + ' &rdquo; ');
     			$(".author").html(" - " + data.author);
     			console.log(quote);
